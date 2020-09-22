@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		#section-button-container label {
+		    display: block;
+		    text-align: center;
+		    height: 100%;
+		    line-height: 30px;
+		    cursor: pointer;
+		    background-color: blue;
+		}
+		input[type=radio],
+		input[type=radio] + img {
+		    display: none;
+		}
+
+		input:checked + img{
+		    display: block;
+
+		}
+	</style>
+</head>
+
+<body>
+	<div id="section-container">
+    <div class="section-img-container">
+        <input type="radio" name="images" id="img1" />
+        <img src="hoofd.jpeg" />
+    </div>
+</div>
+
+<div id="section-button-container"><div>
+    <div class="section-button1">
+        <label for="img1">DRUK HIER VOOR DE FOTO</label>
+    </div>
+</div>
+
+</body>
+</html>
